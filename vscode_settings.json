@@ -1,0 +1,90 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.startupEditor": "none",
+    "editor.acceptSuggestionOnEnter": "off",
+    "gitlens.defaultDateFormat": null,
+    "gitlens.defaultDateShortFormat": null,
+    "gitlens.defaultDateLocale": null,
+    "diffEditor.maxComputationTime": 0,
+    "python.analysis.extraPaths": [
+      "/home/mizutani/.pyenv/versions/miniconda3-latest/envs/eqpred/lib/python3.6/site-packages/"
+    ],
+
+    /*For tex local*/
+    "latex-workshop.latex.autoBuild.interval": 0,
+    "latex-workshop.latex.autoBuild.run": "onFileChange",
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.recipes": [
+      {
+        "name": "latexmk 🔃",
+        "tools": ["latexmk"]
+      }
+    ],
+    "latex-workshop.latex.tools": [
+      {
+        "name": "latexmk",
+        "command": "latexmk",
+        "args": ["-silent", "%DOC%"],
+        "env": {}
+      }
+    ],
+    "latex-workshop.latexindent.path": "/usr/local/texlive/2020/bin/x86_64-linux/latexindent",
+    "latex-workshop.message.update.show": false,
+    "latex-workshop.synctex.afterBuild.enabled": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.largeFileOptimizations": false,
+    "workbench.editorAssociations": {
+      "*.jsonl": "default"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.python",
+      "editor.formatOnType": true
+    },
+    "remote.SSH.configFile": "/Users/mizutanikoyu/.ssh/config",
+    "remote.SSH.remotePlatform": {
+      "sonic": "linux",
+      "ist": "linux",
+      "pyra": "linux",
+      "aoba": "linux",
+      "yun": "linux",
+      "bocchi": "linux",
+      "kanna": "linux",
+      "momo": "linux",
+      "cosmos": "linux",
+      "midori": "linux",
+      "kou": "linux",
+      "elma": "linux",
+      "iroha": "linux",
+      "damian": "linux",
+      "winry": "linux",
+      "olimar": "linux",
+      "gpustat-web": "linux",
+      "isozaki-isucon": "linux",
+      "koyu-isucon": "linux"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "remote.SSH.connectTimeout": 600,
+    "remote.SSH.useLocalServer": false,
+    "window.zoomLevel": 1,
+    "python.defaultInterpreterPath": "/opt/homebrew/anaconda3/envs/genda",
+    "security.workspace.trust.untrustedFiles": "open",
+    /*For tex local end*/
+}
